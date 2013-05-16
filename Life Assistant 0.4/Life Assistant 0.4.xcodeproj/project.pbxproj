@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */; };
+		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
+		884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C11742608A002E1F11 /* UIKit.framework */; };
+		884A87C41742608A002E1F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C31742608A002E1F11 /* Foundation.framework */; };
+		884A87C61742608A002E1F11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C51742608A002E1F11 /* CoreGraphics.framework */; };
+		884A87CC1742608A002E1F11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 884A87CA1742608A002E1F11 /* InfoPlist.strings */; };
+		884A87CE1742608A002E1F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A87CD1742608A002E1F11 /* main.m */; };
+		884A87D21742608A002E1F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A87D11742608A002E1F11 /* AppDelegate.m */; };
+		884A87D41742608A002E1F11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A87D31742608A002E1F11 /* Default.png */; };
+		884A87D61742608A002E1F11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A87D51742608A002E1F11 /* Default@2x.png */; };
+		884A87D81742608A002E1F11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A87D71742608A002E1F11 /* Default-568h@2x.png */; };
+		884A87DB1742608A002E1F11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A87D91742608A002E1F11 /* MainStoryboard.storyboard */; };
+		884A87DE1742608A002E1F11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A87DD1742608A002E1F11 /* ViewController.m */; };
+		884A87E717426161002E1F11 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87E617426161002E1F11 /* MapKit.framework */; };
+		884A87E917426169002E1F11 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87E817426169002E1F11 /* CoreLocation.framework */; };
+		88DA77C117434A96006F5613 /* u9_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77BF17434A96006F5613 /* u9_normal.png */; };
+		88DA77C217434A96006F5613 /* u39_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C017434A96006F5613 /* u39_normal.png */; };
+		88DA77C617434AB0006F5613 /* u17_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C317434AB0006F5613 /* u17_normal.png */; };
+		88DA77C717434AB0006F5613 /* u32_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C417434AB0006F5613 /* u32_normal.png */; };
+		88DA77C817434AB0006F5613 /* u35_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C517434AB0006F5613 /* u35_normal.png */; };
+		88DA7831174365EE006F5613 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DA7830174365EE006F5613 /* SearchResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
+		7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalTableViewCell.m; sourceTree = "<group>"; };
+		7C539068174326060006D48C /* regionalScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionalScreeningViewController.h; sourceTree = "<group>"; };
+		7C539069174326060006D48C /* regionalScreeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regionalScreeningViewController.m; sourceTree = "<group>"; };
+		884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884A87C11742608A002E1F11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		884A87C31742608A002E1F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		884A87C51742608A002E1F11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		884A87C91742608A002E1F11 /* Life Assistant 0.4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Life Assistant 0.4-Info.plist"; sourceTree = "<group>"; };
+		884A87CD1742608A002E1F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884A87CF1742608A002E1F11 /* Life Assistant 0.4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Life Assistant 0.4-Prefix.pch"; sourceTree = "<group>"; };
+		884A87D01742608A002E1F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884A87D11742608A002E1F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884A87D31742608A002E1F11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		884A87D51742608A002E1F11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		884A87D71742608A002E1F11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		884A87DC1742608A002E1F11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		884A87DD1742608A002E1F11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		884A87E4174260C2002E1F11 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		884A87E5174260C2002E1F11 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		884A87E617426161002E1F11 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		884A87E817426169002E1F11 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		88DA77BF17434A96006F5613 /* u9_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u9_normal.png; sourceTree = "<group>"; };
+		88DA77C017434A96006F5613 /* u39_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u39_normal.png; sourceTree = "<group>"; };
+		88DA77C317434AB0006F5613 /* u17_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u17_normal.png; sourceTree = "<group>"; };
+		88DA77C417434AB0006F5613 /* u32_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u32_normal.png; sourceTree = "<group>"; };
+		88DA77C517434AB0006F5613 /* u35_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u35_normal.png; sourceTree = "<group>"; };
+		88DA782F174365EE006F5613 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		88DA7830174365EE006F5613 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884A87BB1742608A002E1F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884A87E917426169002E1F11 /* CoreLocation.framework in Frameworks */,
+				884A87E717426161002E1F11 /* MapKit.framework in Frameworks */,
+				884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */,
+				884A87C41742608A002E1F11 /* Foundation.framework in Frameworks */,
+				884A87C61742608A002E1F11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884A87B51742608A002E1F11 = {
+			isa = PBXGroup;
+			children = (
+				88DA77B817434A0D006F5613 /* Picture */,
+				884A87C71742608A002E1F11 /* Life Assistant 0.4 */,
+				884A87C01742608A002E1F11 /* Frameworks */,
+				884A87BF1742608A002E1F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884A87BF1742608A002E1F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884A87C01742608A002E1F11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884A87E817426169002E1F11 /* CoreLocation.framework */,
+				884A87E617426161002E1F11 /* MapKit.framework */,
+				884A87C11742608A002E1F11 /* UIKit.framework */,
+				884A87C31742608A002E1F11 /* Foundation.framework */,
+				884A87C51742608A002E1F11 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		884A87C71742608A002E1F11 /* Life Assistant 0.4 */ = {
+			isa = PBXGroup;
+			children = (
+				884A87D01742608A002E1F11 /* AppDelegate.h */,
+				884A87D11742608A002E1F11 /* AppDelegate.m */,
+				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */,
+				7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */,
+				88DA782F174365EE006F5613 /* SearchResultViewController.h */,
+				88DA7830174365EE006F5613 /* SearchResultViewController.m */,
+				7C539068174326060006D48C /* regionalScreeningViewController.h */,
+				7C539069174326060006D48C /* regionalScreeningViewController.m */,
+				884A87DC1742608A002E1F11 /* ViewController.h */,
+				884A87DD1742608A002E1F11 /* ViewController.m */,
+				884A87C81742608A002E1F11 /* Supporting Files */,
+			);
+			path = "Life Assistant 0.4";
+			sourceTree = "<group>";
+		};
+		884A87C81742608A002E1F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884A87C91742608A002E1F11 /* Life Assistant 0.4-Info.plist */,
+				884A87CA1742608A002E1F11 /* InfoPlist.strings */,
+				884A87CD1742608A002E1F11 /* main.m */,
+				884A87CF1742608A002E1F11 /* Life Assistant 0.4-Prefix.pch */,
+				884A87D31742608A002E1F11 /* Default.png */,
+				884A87D51742608A002E1F11 /* Default@2x.png */,
+				884A87D71742608A002E1F11 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88DA77B817434A0D006F5613 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				88DA77C317434AB0006F5613 /* u17_normal.png */,
+				88DA77C417434AB0006F5613 /* u32_normal.png */,
+				88DA77C517434AB0006F5613 /* u35_normal.png */,
+				88DA77BF17434A96006F5613 /* u9_normal.png */,
+				88DA77C017434A96006F5613 /* u39_normal.png */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884A87BD1742608A002E1F11 /* Life Assistant 0.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884A87E11742608A002E1F11 /* Build configuration list for PBXNativeTarget "Life Assistant 0.4" */;
+			buildPhases = (
+				884A87BA1742608A002E1F11 /* Sources */,
+				884A87BB1742608A002E1F11 /* Frameworks */,
+				884A87BC1742608A002E1F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Assistant 0.4";
+			productName = "Life Assistant 0.4";
+			productReference = 884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884A87B61742608A002E1F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BSFit;
+			};
+			buildConfigurationList = 884A87B91742608A002E1F11 /* Build configuration list for PBXProject "Life Assistant 0.4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 884A87B51742608A002E1F11;
+			productRefGroup = 884A87BF1742608A002E1F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884A87BD1742608A002E1F11 /* Life Assistant 0.4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884A87BC1742608A002E1F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884A87CC1742608A002E1F11 /* InfoPlist.strings in Resources */,
+				884A87D41742608A002E1F11 /* Default.png in Resources */,
+				884A87D61742608A002E1F11 /* Default@2x.png in Resources */,
+				884A87D81742608A002E1F11 /* Default-568h@2x.png in Resources */,
+				884A87DB1742608A002E1F11 /* MainStoryboard.storyboard in Resources */,
+				88DA77C117434A96006F5613 /* u9_normal.png in Resources */,
+				88DA77C217434A96006F5613 /* u39_normal.png in Resources */,
+				88DA77C617434AB0006F5613 /* u17_normal.png in Resources */,
+				88DA77C717434AB0006F5613 /* u32_normal.png in Resources */,
+				88DA77C817434AB0006F5613 /* u35_normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884A87BA1742608A002E1F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884A87CE1742608A002E1F11 /* main.m in Sources */,
+				884A87D21742608A002E1F11 /* AppDelegate.m in Sources */,
+				884A87DE1742608A002E1F11 /* ViewController.m in Sources */,
+				7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */,
+				88DA7831174365EE006F5613 /* SearchResultViewController.m in Sources */,
+				7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		884A87CA1742608A002E1F11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884A87E5174260C2002E1F11 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		884A87D91742608A002E1F11 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884A87E4174260C2002E1F11 /* zh-Hans */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884A87DF1742608A002E1F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		884A87E01742608A002E1F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884A87E21742608A002E1F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Life Assistant 0.4/Life Assistant 0.4-Prefix.pch";
+				INFOPLIST_FILE = "Life Assistant 0.4/Life Assistant 0.4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		884A87E31742608A002E1F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Life Assistant 0.4/Life Assistant 0.4-Prefix.pch";
+				INFOPLIST_FILE = "Life Assistant 0.4/Life Assistant 0.4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884A87B91742608A002E1F11 /* Build configuration list for PBXProject "Life Assistant 0.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884A87DF1742608A002E1F11 /* Debug */,
+				884A87E01742608A002E1F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884A87E11742608A002E1F11 /* Build configuration list for PBXNativeTarget "Life Assistant 0.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884A87E21742608A002E1F11 /* Debug */,
+				884A87E31742608A002E1F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884A87B61742608A002E1F11 /* Project object */;
+}
